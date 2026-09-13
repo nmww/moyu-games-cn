@@ -1,0 +1,14 @@
+{
+  "appid": "wxba7efee2ac315e56",
+  "projectname": "moyu-games-cn",
+  "description": "cc 游戏厅 - 摸鱼小游戏改品牌适配版",
+  "compileType": "miniprogram",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "condition": {}
+}

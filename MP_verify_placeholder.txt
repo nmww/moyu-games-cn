@@ -1,0 +1,7 @@
+REPLACE_WITH_WECHAT_BUSINESS_DOMAIN_VERIFY_CODE
+
+# 说明：
+# 1. 登录 mp.weixin.qq.com → 开发管理 → 开发设置 → 业务域名
+# 2. 点击「下载校验文件」，得到一个名为 MP_verify_xxxxxxxx.txt 的文件
+# 3. 用该文件的真实内容覆盖本文件，并将本文件重命名为 MP_verify_xxxxxxxx.txt
+# 4. 推送到本仓库根目录（Pages 根），微信才能校验你对 nmww.github.io 的所有权

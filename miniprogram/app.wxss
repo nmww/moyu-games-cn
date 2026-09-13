@@ -1,0 +1,6 @@
+/* 全局样式 */
+page {
+  background: #f2f4f8;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1a1a1a;
+}

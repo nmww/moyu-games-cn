@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/game/game"
+  ],
+  "window": {
+    "navigationBarTitleText": "cc 游戏厅",
+    "navigationBarBackgroundColor": "#2b6cff",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f2f4f8",
+    "enablePullDownRefresh": false
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<title>ӵ | HTML5йϷ</title>
+<meta name="keywords" content="ϷHTML5йϷ" />
+<meta name="description" content="Ϸ | HTML5йϷ־һӵ100СϷվMade By cc֧֡ӵ" /> 
+<meta name="author" content="ӵ(https://nmww.github.io/moyu-games-cn/)" />
+<meta name="copyright" content="ӵ(https://nmww.github.io/moyu-games-cn/)" />
+<link rel="icon" href="https://nmww.github.io/moyu-games-cn/" sizes="192x192" />
+<link href="css/zzsc.css" type="text/css" rel="stylesheet" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/svg+xml" href="../../libs/brand-favicon.svg">
+<link rel="stylesheet" href="../../libs/mobile.css">
+<script src="../../libs/touch.js"></script>
+</head>
+<body>
+<div class="box" id="box">
+	<div class="chess_left">
+		<canvas id="chess">Բ֧HTML5IE9firefox߹ȸ</canvas>
+		<audio src="audio/click.wav" id="clickAudio" preload="auto"></audio>
+		<!--<audio src="audio/check.wav" id="checkAudio" preload="auto"></audio>-->
+		<audio src="audio/select.wav" id="selectAudio" preload="auto"></audio>
+		<link rel="stylesheet" type="text/css" href="../../libs/buttons.css">
+		<div>
+			<div class="bn_box" id="bnBox">
+				<input type="button" name="offensivePlay" id="tyroPlay" class="button button-caution button-pill button-jumbo" value="ˮƽ" />
+				<input type="button" name="offensivePlay" id="superPlay" class="button button-caution button-pill button-jumbo" value="мˮƽ" />
+                <input type="button" name="button" id="" value="ʦˮƽ" class="button button-caution button-pill button-jumbo" disabled /><br>
+				<!--
+			<input type="button" name="offensivePlay" id="offensivePlay" value="ֿʼ" />
+			<input type="button" name="defensivePlay" id="defensivePlay" value="ֿʼ" />
+			-->
+				<input type="button" name="regret" id="regretBn" class="button button-raised button-pill button-inverse" value="" />
+				<input type="button" name="billBn" id="billBn" value="¿ʼ" class="button button-glow button-rounded button-royal" class="bn_box" />
+				<input type="button" name="stypeBn" id="stypeBn" class="button button-raised button-primary button-pill" value="Ŵ" />
+			</div>
+		</div>
+	</div>
+	<div class="chess_right" id="chessRight">
+		<select name="billList" id="billList">
+		</select>
+		<ol id="billBox" class="bill_box">
+		</ol>
+	</div>
+	<div id="moveInfo" class="move_info"> </div>
+</div>
+<footer class="page-footer">
+  <span>made by </span>
+  <a href="https://nmww.github.io/moyu-games-cn/" target="_blank">
+	<img class="touxiang"  src="https://nmww.github.io/moyu-games-cn/" alt="cc logo">
+  </a>
+</footer>
+<script src="js/common.js"></script> 
+<script src="js/play.js"></script> 
+<script src="js/AI.js"></script> 
+<script src="js/bill.js"></script> 
+<script src="js/gambit.js"></script>
+</body>
+</html>
